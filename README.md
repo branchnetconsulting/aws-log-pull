@@ -3,7 +3,9 @@ Pulls logs from Cloudwatch using powershell.  Outputs as either powershell objec
 
 ## Docker build
 ```
-docker built -t aws-log-pull .
+git clone https://github.com/BarnumD/aws-log-pull.git
+cd aws-log-pull
+docker build -t aws-log-pull .
 ```
 
 ## Usage
